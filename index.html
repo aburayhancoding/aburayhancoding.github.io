@@ -141,7 +141,7 @@
     if (!clicks) {
       clicks = 44; // Start at 44
     } else {
-      clicks = parseInt(clicks) + 1; // Increase by 1 each refresh
+      clicks = parseInt(clicks) + 3; // Increase by 1 each refresh
     }
     localStorage.setItem('clickCount', clicks);
     document.getElementById("clicks").innerHTML = `Clicked today: ${clicks}`;
